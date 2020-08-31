@@ -1,5 +1,7 @@
 # A Simple Kotlin HTTP Hooker
 
+![Build Status](https://github.com/LinHeLurking/kt-http-hook/workflows/Build/badge.svg)
+
 This repo contains some sample codes about the usage http
 as message channel across different programming languages(In 
 this repo its Python).
