@@ -103,9 +103,9 @@ assignmentName: 测试作业,
 lastVisited: -1
 ```
 
-Newly created instances of `SampleClass` is
-stored in a buffer. You can retrieve entries from it by calling
-this.
+Newly created instances of `SampleClass` are
+stored in a buffer. You can retrieve entries from the buffer
+by calling this.
 
 ```kotlin
 val entry = hookServer.popFromBuffer()
