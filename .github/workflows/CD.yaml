@@ -16,5 +16,5 @@ jobs:
       # Build
       - uses: eskatos/gradle-command-action@v1
         with:
-          arguments: build
+          arguments: wrapper build
         id: gradle
