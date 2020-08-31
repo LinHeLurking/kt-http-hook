@@ -5,7 +5,7 @@ on: [workflow_dispatch]
 jobs:
   build:
     name: Gradle-distZip
-    runs-on: ubuntu-lates
+    runs-on: ubuntu-latest
     steps:
       # Checkout
       - uses: actions/checkout@v2
