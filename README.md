@@ -75,8 +75,35 @@ def sendTest(port=8080):
         print("Success")
 ```
 
+
 Constructors are searched automatically with respect to their
-types and names. Newly created instances of `SampleClass` is
+types and names. Sample outputs:
+
+> Sender Side:
+
+```
+❯ python.exe .\src\py\Sender.py
+Success
+Error
+Success
+```
+
+> Receiver Side:
+
+```
+Received DataPacket: 
+ID: ABC123zxy, 
+courseName: 测试课程, 
+assignmentName: 测试作业, 
+lastVisited: 123456
+Received DataPacket: 
+ID: ABC123zxy, 
+courseName: 测试课程, 
+assignmentName: 测试作业, 
+lastVisited: -1
+```
+
+Newly created instances of `SampleClass` is
 stored in a buffer. You can retrieve entries from it by calling
 this.
 
